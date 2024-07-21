@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #ADD8E6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #FFCCCB;
+    padding: 10px 0;
+}
+nav .nav-links {
+    text-align: center;
+}
+nav .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #ADD8E6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.main-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjusted to account for header and footer height */
+}
+.main-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+.main-content h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.question {
+    margin-bottom: 20px;
+}
+.question p {
+    margin: 0 0 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"], form input[type="radio"] {
+    width: auto;
+    margin-bottom: 10px;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button[type="submit"] {
+    background-color: green;
+}
+form button[type="button"] {
+    background-color: red;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
